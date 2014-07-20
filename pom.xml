@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>AccuntsAppBDDTests</groupId>
+    <artifactId>AccuntsAppBDDTests</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>1.1.5</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-jvm</artifactId>
+            <version>1.1.5</version>
+            <type>pom</type>
+        </dependency>
+
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>1.1.5</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>2.41.0</version>
+        </dependency>
+
+    </dependencies>
+
+
+    <build>
+
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.2.1</version>
+                <executions>
+                    <execution>
+                        <phase>integration-test</phase>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <includeProjectDependencies>false</includeProjectDependencies>
+                    <includePluginDependencies>true</includePluginDependencies>
+                    <executableDependency>
+                        <groupId>info.cukes</groupId>
+                        <artifactId>cucumber-core</artifactId>
+                        <groupId>info.cukes</groupId>
+                        <artifactId>cucumber-java</artifactId>
+                    </executableDependency>
+                    <mainClass>cucumber.api.cli.Main</mainClass>
+                    <arguments>
+                        <argument>--format</argument>
+                        <argument>junit:target/cucumber-junit-report/allcukes.xml</argument>
+                        <argument>--format</argument>
+                        <argument>pretty</argument>
+                        <argument>--format</argument>
+                        <argument>html:target/cucumber-html-report</argument>
+                        <argument>--tags</argument>
+                        <argument>@Signup</argument>
+                        <!--<argument>glue</argument>-->
+                        <argument>src/test/java/</argument>
+                    </arguments>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>info.cukes</groupId>
+                        <artifactId>cucumber-core</artifactId>
+                        <version>1.1.5</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>info.cukes</groupId>
+                        <artifactId>cucumber-java</artifactId>
+                        <version>1.1.5</version>
+                    </dependency>
+
+                </dependencies>
+            </plugin>
+        </plugins>
+    </build>
+
+
+</project>
