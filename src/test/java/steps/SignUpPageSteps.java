@@ -1,10 +1,9 @@
 package steps;
 
 
-import cucumber.api.DataTable;
 import cucumber.api.java.en.And;
-import gherkin.formatter.model.DataTableRow;
 import pagesWithPageFactoryImplementation.SignupPage;
+import util.DriverFactory;
 
 import java.util.List;
 

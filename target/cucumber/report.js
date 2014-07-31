@@ -1,0 +1,508 @@
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("NewClientWorkFlow.feature");
+formatter.feature({
+  "id": "sign-up-feature",
+  "tags": [
+    {
+      "name": "@Signup",
+      "line": 1
+    },
+    {
+      "name": "@TaggedAgain",
+      "line": 1
+    }
+  ],
+  "description": "As a user\nI want to be able to add new clients in the system\nSo that i can add accounting data for that client",
+  "name": "Sign up feature",
+  "keyword": "Feature",
+  "line": 2
+});
+formatter.before({
+  "duration": 2827083000,
+  "status": "passed"
+});
+formatter.background({
+  "description": "",
+  "name": "",
+  "keyword": "Background",
+  "line": 7,
+  "type": "background"
+});
+formatter.step({
+  "name": "the user is on landing page",
+  "keyword": "Given ",
+  "line": 8
+});
+formatter.step({
+  "name": "she chooses to sign up",
+  "keyword": "When ",
+  "line": 9
+});
+formatter.match({
+  "location": "StartingSteps.setup()"
+});
+formatter.result({
+  "duration": 3565102000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LandingPageSteps.she_chooses_to_sign_up()"
+});
+formatter.result({
+  "duration": 576099000,
+  "status": "passed"
+});
+formatter.scenario({
+  "id": "sign-up-feature;sign-up-a-new-user",
+  "tags": [
+    {
+      "name": "@Signup-Simple",
+      "line": 11
+    }
+  ],
+  "description": "",
+  "name": "Sign up a new user",
+  "keyword": "Scenario",
+  "line": 12,
+  "type": "scenario"
+});
+formatter.step({
+  "name": "she provides the first name as Sukesh",
+  "keyword": "And ",
+  "line": 13
+});
+formatter.step({
+  "name": "she provides the last name as Kumar",
+  "keyword": "And ",
+  "line": 14
+});
+formatter.step({
+  "name": "she provides the email as validemail@aq.com",
+  "keyword": "And ",
+  "line": 15
+});
+formatter.step({
+  "name": "she provides the password as password",
+  "keyword": "And ",
+  "line": 16
+});
+formatter.step({
+  "name": "she provides the confirm password again as password",
+  "keyword": "And ",
+  "line": 17
+});
+formatter.step({
+  "name": "she signs-up",
+  "keyword": "And ",
+  "line": 18
+});
+formatter.step({
+  "name": "she should be logged in to the application",
+  "keyword": "Then ",
+  "line": 19
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Sukesh",
+      "offset": 31
+    }
+  ],
+  "location": "SignUpPageSteps.she_provides_the_first_name_as(String)"
+});
+formatter.result({
+  "duration": 47954000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Kumar",
+      "offset": 30
+    }
+  ],
+  "location": "SignUpPageSteps.she_provides_the_last_name_as(String)"
+});
+formatter.result({
+  "duration": 49477000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "validemail@aq.com",
+      "offset": 26
+    }
+  ],
+  "location": "SignUpPageSteps.she_provides_the_email_as(String)"
+});
+formatter.result({
+  "duration": 65537000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "password",
+      "offset": 29
+    }
+  ],
+  "location": "SignUpPageSteps.she_provides_the_password_as(String)"
+});
+formatter.result({
+  "duration": 52603000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "password",
+      "offset": 43
+    }
+  ],
+  "location": "SignUpPageSteps.she_provides_the_confirm_password_again_as(String)"
+});
+formatter.result({
+  "duration": 71053000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SignUpPageSteps.she_signs_up()"
+});
+formatter.result({
+  "duration": 717844000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HomePageSteps.she_should_be_logged_in_to_the_application()"
+});
+formatter.result({
+  "duration": 12847000,
+  "status": "failed",
+  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href\u003d\u0027/users/sign_out\u0027]\"}\nCommand duration or timeout: 8 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.41.0\u0027, revision: \u00273192d8a6c4449dc285928ba024779344f5423c58\u0027, time: \u00272014-03-27 11:29:39\u0027\nSystem info: host: \u0027N/A\u0027, ip: \u0027N/A\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.7.5\u0027, java.version: \u00271.7.0_55\u0027\nSession ID: 77699c54-d97d-ea42-9f1b-ea8929bc59cf\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{platform\u003dMAC, databaseEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, javascriptEnabled\u003dtrue, acceptSslCerts\u003dtrue, handlesAlerts\u003dtrue, browserName\u003dfirefox, webStorageEnabled\u003dtrue, nativeEvents\u003dfalse, rotatable\u003dfalse, locationContextEnabled\u003dtrue, applicationCacheEnabled\u003dtrue, takesScreenshot\u003dtrue, version\u003d31.0}]\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:526)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:437)\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:425)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)\n\tat com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)\n\tat pagesWithPageFactoryImplementation.HomePage.isSignOutLinkDisplayed(HomePage.java:30)\n\tat steps.HomePageSteps.she_should_be_logged_in_to_the_application(HomePageSteps.java:13)\n\tat ✽.Then she should be logged in to the application(NewClientWorkFlow.feature:19)\nCaused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href\u003d\u0027/users/sign_out\u0027]\"}\nBuild info: version: \u00272.41.0\u0027, revision: \u00273192d8a6c4449dc285928ba024779344f5423c58\u0027, time: \u00272014-03-27 11:29:39\u0027\nSystem info: host: \u0027N/A\u0027, ip: \u0027N/A\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.7.5\u0027, java.version: \u00271.7.0_55\u0027\nDriver info: driver.version: unknown\n\tat \u003canonymous class\u003e.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous2703002023600916857webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8905:133)\n\tat \u003canonymous class\u003e.FirefoxDriver.prototype.findElement(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous2703002023600916857webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8914:3)\n\tat \u003canonymous class\u003e.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous2703002023600916857webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10884:16)\n\tat \u003canonymous class\u003e.DelayedCommand.prototype.executeInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous2703002023600916857webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10889:7)\n\tat \u003canonymous class\u003e.DelayedCommand.prototype.execute/\u003c(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous2703002023600916857webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831:5)\n"
+});
+formatter.after({
+  "duration": 69000,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 76430000,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 2339481000,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 74000,
+  "status": "passed"
+});
+formatter.background({
+  "description": "",
+  "name": "",
+  "keyword": "Background",
+  "line": 7,
+  "type": "background"
+});
+formatter.step({
+  "name": "the user is on landing page",
+  "keyword": "Given ",
+  "line": 8
+});
+formatter.step({
+  "name": "she chooses to sign up",
+  "keyword": "When ",
+  "line": 9
+});
+formatter.match({
+  "location": "StartingSteps.setup()"
+});
+formatter.result({
+  "duration": 3503922000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LandingPageSteps.she_chooses_to_sign_up()"
+});
+formatter.result({
+  "duration": 678274000,
+  "status": "passed"
+});
+formatter.scenario({
+  "id": "sign-up-feature;data-driving-new-user-sign-up;;2",
+  "tags": [
+    {
+      "name": "@TaggedAgain",
+      "line": 1
+    },
+    {
+      "name": "@Signup",
+      "line": 1
+    },
+    {
+      "name": "@Signup-DataDriven",
+      "line": 21
+    }
+  ],
+  "description": "",
+  "name": "Data driving new user sign-up",
+  "keyword": "Scenario Outline",
+  "line": 32,
+  "type": "scenario"
+});
+formatter.step({
+  "name": "she provides the first name as Sukesh",
+  "keyword": "And ",
+  "line": 23,
+  "matchedColumns": [
+    0
+  ]
+});
+formatter.step({
+  "name": "she provides the last name as Kumar",
+  "keyword": "And ",
+  "line": 24,
+  "matchedColumns": [
+    1
+  ]
+});
+formatter.step({
+  "name": "she provides the email as validemail@aq.com",
+  "keyword": "And ",
+  "line": 25,
+  "matchedColumns": [
+    2
+  ]
+});
+formatter.step({
+  "name": "she provides the password as password",
+  "keyword": "And ",
+  "line": 26,
+  "matchedColumns": [
+    3
+  ]
+});
+formatter.step({
+  "name": "she provides the confirm password again as password",
+  "keyword": "And ",
+  "line": 27,
+  "matchedColumns": [
+    3
+  ]
+});
+formatter.step({
+  "name": "she signs-up",
+  "keyword": "And ",
+  "line": 28
+});
+formatter.step({
+  "name": "she should be logged in to the application",
+  "keyword": "Then ",
+  "line": 29
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Sukesh",
+      "offset": 31
+    }
+  ],
+  "location": "SignUpPageSteps.she_provides_the_first_name_as(String)"
+});
+formatter.result({
+  "duration": 46414000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Kumar",
+      "offset": 30
+    }
+  ],
+  "location": "SignUpPageSteps.she_provides_the_last_name_as(String)"
+});
+formatter.result({
+  "duration": 39972000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "validemail@aq.com",
+      "offset": 26
+    }
+  ],
+  "location": "SignUpPageSteps.she_provides_the_email_as(String)"
+});
+formatter.result({
+  "duration": 77123000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "password",
+      "offset": 29
+    }
+  ],
+  "location": "SignUpPageSteps.she_provides_the_password_as(String)"
+});
+formatter.result({
+  "duration": 50898000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "password",
+      "offset": 43
+    }
+  ],
+  "location": "SignUpPageSteps.she_provides_the_confirm_password_again_as(String)"
+});
+formatter.result({
+  "duration": 55360000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SignUpPageSteps.she_signs_up()"
+});
+formatter.result({
+  "duration": 763955000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HomePageSteps.she_should_be_logged_in_to_the_application()"
+});
+formatter.result({
+  "duration": 28518000,
+  "status": "failed",
+  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href\u003d\u0027/users/sign_out\u0027]\"}\nCommand duration or timeout: 28 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.41.0\u0027, revision: \u00273192d8a6c4449dc285928ba024779344f5423c58\u0027, time: \u00272014-03-27 11:29:39\u0027\nSystem info: host: \u0027N/A\u0027, ip: \u0027N/A\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.7.5\u0027, java.version: \u00271.7.0_55\u0027\nSession ID: a1a24f8c-8b47-784f-8e32-6d8a624d4839\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{platform\u003dMAC, databaseEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, javascriptEnabled\u003dtrue, acceptSslCerts\u003dtrue, handlesAlerts\u003dtrue, browserName\u003dfirefox, webStorageEnabled\u003dtrue, nativeEvents\u003dfalse, rotatable\u003dfalse, locationContextEnabled\u003dtrue, applicationCacheEnabled\u003dtrue, takesScreenshot\u003dtrue, version\u003d31.0}]\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:526)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:437)\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:425)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)\n\tat com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)\n\tat pagesWithPageFactoryImplementation.HomePage.isSignOutLinkDisplayed(HomePage.java:30)\n\tat steps.HomePageSteps.she_should_be_logged_in_to_the_application(HomePageSteps.java:13)\n\tat ✽.Then she should be logged in to the application(NewClientWorkFlow.feature:29)\nCaused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href\u003d\u0027/users/sign_out\u0027]\"}\nBuild info: version: \u00272.41.0\u0027, revision: \u00273192d8a6c4449dc285928ba024779344f5423c58\u0027, time: \u00272014-03-27 11:29:39\u0027\nSystem info: host: \u0027N/A\u0027, ip: \u0027N/A\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.7.5\u0027, java.version: \u00271.7.0_55\u0027\nDriver info: driver.version: unknown\n\tat \u003canonymous class\u003e.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous259700035143190766webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8905:133)\n\tat \u003canonymous class\u003e.FirefoxDriver.prototype.findElement(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous259700035143190766webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8914:3)\n\tat \u003canonymous class\u003e.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous259700035143190766webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10884:16)\n\tat \u003canonymous class\u003e.DelayedCommand.prototype.executeInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous259700035143190766webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10889:7)\n\tat \u003canonymous class\u003e.DelayedCommand.prototype.execute/\u003c(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous259700035143190766webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831:5)\n"
+});
+formatter.after({
+  "duration": 21000,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 70897000,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 68000,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 2030129000,
+  "status": "passed"
+});
+formatter.background({
+  "description": "",
+  "name": "",
+  "keyword": "Background",
+  "line": 7,
+  "type": "background"
+});
+formatter.step({
+  "name": "the user is on landing page",
+  "keyword": "Given ",
+  "line": 8
+});
+formatter.step({
+  "name": "she chooses to sign up",
+  "keyword": "When ",
+  "line": 9
+});
+formatter.match({
+  "location": "StartingSteps.setup()"
+});
+formatter.result({
+  "duration": 3719883000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LandingPageSteps.she_chooses_to_sign_up()"
+});
+formatter.result({
+  "duration": 818437000,
+  "status": "passed"
+});
+formatter.scenario({
+  "id": "sign-up-feature;sign-up-a-new-user-with-data-table-example",
+  "tags": [
+    {
+      "name": "@Signup-datatable-example",
+      "line": 35
+    }
+  ],
+  "description": "",
+  "name": "Sign-up a new user with data table example",
+  "keyword": "Scenario",
+  "line": 36,
+  "type": "scenario"
+});
+formatter.step({
+  "name": "she provides the her details as follows:",
+  "keyword": "And ",
+  "line": 37,
+  "rows": [
+    {
+      "cells": [
+        "firstName",
+        "lastName",
+        "email",
+        "password"
+      ],
+      "line": 38
+    },
+    {
+      "cells": [
+        "Sukesh",
+        "Kumar",
+        "validemail@aq.com",
+        "password"
+      ],
+      "line": 39
+    }
+  ]
+});
+formatter.step({
+  "name": "she signs-up",
+  "keyword": "And ",
+  "line": 40
+});
+formatter.step({
+  "name": "she should be logged in to the application",
+  "keyword": "Then ",
+  "line": 41
+});
+formatter.match({
+  "location": "SignUpPageSteps.she_provides_the_her_details_as_follows(SignUpPageSteps$UserDetails\u003e)"
+});
+formatter.result({
+  "duration": 335841000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SignUpPageSteps.she_signs_up()"
+});
+formatter.result({
+  "duration": 984582000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HomePageSteps.she_should_be_logged_in_to_the_application()"
+});
+formatter.result({
+  "duration": 8478000,
+  "status": "failed",
+  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href\u003d\u0027/users/sign_out\u0027]\"}\nCommand duration or timeout: 8 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.41.0\u0027, revision: \u00273192d8a6c4449dc285928ba024779344f5423c58\u0027, time: \u00272014-03-27 11:29:39\u0027\nSystem info: host: \u0027N/A\u0027, ip: \u0027N/A\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.7.5\u0027, java.version: \u00271.7.0_55\u0027\nSession ID: 621d7ee7-900b-4644-9a3c-8a5a6a8f02ab\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{platform\u003dMAC, databaseEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, javascriptEnabled\u003dtrue, acceptSslCerts\u003dtrue, handlesAlerts\u003dtrue, browserName\u003dfirefox, webStorageEnabled\u003dtrue, nativeEvents\u003dfalse, rotatable\u003dfalse, locationContextEnabled\u003dtrue, applicationCacheEnabled\u003dtrue, takesScreenshot\u003dtrue, version\u003d31.0}]\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:526)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:437)\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:425)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)\n\tat com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)\n\tat pagesWithPageFactoryImplementation.HomePage.isSignOutLinkDisplayed(HomePage.java:30)\n\tat steps.HomePageSteps.she_should_be_logged_in_to_the_application(HomePageSteps.java:13)\n\tat ✽.Then she should be logged in to the application(NewClientWorkFlow.feature:41)\nCaused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a[href\u003d\u0027/users/sign_out\u0027]\"}\nBuild info: version: \u00272.41.0\u0027, revision: \u00273192d8a6c4449dc285928ba024779344f5423c58\u0027, time: \u00272014-03-27 11:29:39\u0027\nSystem info: host: \u0027N/A\u0027, ip: \u0027N/A\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.7.5\u0027, java.version: \u00271.7.0_55\u0027\nDriver info: driver.version: unknown\n\tat \u003canonymous class\u003e.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous8660662687156718564webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8905:133)\n\tat \u003canonymous class\u003e.FirefoxDriver.prototype.findElement(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous8660662687156718564webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8914:3)\n\tat \u003canonymous class\u003e.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous8660662687156718564webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10884:16)\n\tat \u003canonymous class\u003e.DelayedCommand.prototype.executeInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous8660662687156718564webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10889:7)\n\tat \u003canonymous class\u003e.DelayedCommand.prototype.execute/\u003c(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous8660662687156718564webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831:5)\n"
+});
+formatter.after({
+  "duration": 30000,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 70139000,
+  "status": "passed"
+});
+});

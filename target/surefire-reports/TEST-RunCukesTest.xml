@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="24.518" errors="6" skipped="0" tests="26" name="RunCukesTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="24.55-b03"/>
+    <property name="user.country.format" value="IN"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/Sukeshk/AccuntsAppBDDTests"/>
+    <property name="java.runtime.version" value="1.7.0_55-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/Users/Sukeshk/AccuntsAppBDDTests"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="surefire.real.class.path" value="/Users/Sukeshk/AccuntsAppBDDTests/target/surefire/surefirebooter8764207587883184658.jar"/>
+    <property name="java.io.tmpdir" value="/var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/Sukeshk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="surefire.test.class.path" value="/Users/Sukeshk/AccuntsAppBDDTests/target/test-classes:/Users/Sukeshk/AccuntsAppBDDTests/target/classes:/Users/Sukeshk/.m2/repository/info/cukes/cucumber-java/1.1.5/cucumber-java-1.1.5.jar:/Users/Sukeshk/.m2/repository/info/cukes/cucumber-core/1.1.5/cucumber-core-1.1.5.jar:/Users/Sukeshk/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/Sukeshk/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.3/cucumber-jvm-deps-1.0.3.jar:/Users/Sukeshk/.m2/repository/info/cukes/gherkin/2.12.1/gherkin-2.12.1.jar:/Users/Sukeshk/.m2/repository/info/cukes/cucumber-junit/1.1.5/cucumber-junit-1.1.5.jar:/Users/Sukeshk/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/Sukeshk/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/Sukeshk/.m2/repository/org/seleniumhq/selenium/selenium-java/2.41.0/selenium-java-2.41.0.jar:/Users/Sukeshk/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.41.0/selenium-chrome-driver-2.41.0.jar:/Users/Sukeshk/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.41.0/selenium-remote-driver-2.41.0.jar:/Users/Sukeshk/.m2/repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar:/Users/Sukeshk/.m2/repository/org/json/json/20080701/json-20080701.jar:/Users/Sukeshk/.m2/repository/com/google/guava/guava/15.0/guava-15.0.jar:/Users/Sukeshk/.m2/repository/org/seleniumhq/selenium/selenium-htmlunit-driver/2.41.0/selenium-htmlunit-driver-2.41.0.jar:/Users/Sukeshk/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.13/htmlunit-2.13.jar:/Users/Sukeshk/.m2/repository/xalan/xalan/2.7.1/xalan-2.7.1.jar:/Users/Sukeshk/.m2/repository/xalan/serializer/2.7.1/serializer-2.7.1.jar:/Users/Sukeshk/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/Sukeshk/.m2/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar:/Users/Sukeshk/.m2/repository/org/apache/httpcomponents/httpmime/4.3.1/httpmime-4.3.1.jar:/Users/Sukeshk/.m2/repository/commons-codec/commons-codec/1.8/commons-codec-1.8.jar:/Users/Sukeshk/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.13/htmlunit-core-js-2.13.jar:/Users/Sukeshk/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/Users/Sukeshk/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/Sukeshk/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.19/nekohtml-1.9.19.jar:/Users/Sukeshk/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.11/cssparser-0.9.11.jar:/Users/Sukeshk/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/Sukeshk/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/Users/Sukeshk/.m2/repository/org/eclipse/jetty/jetty-websocket/8.1.12.v20130726/jetty-websocket-8.1.12.v20130726.jar:/Users/Sukeshk/.m2/repository/org/eclipse/jetty/jetty-util/8.1.12.v20130726/jetty-util-8.1.12.v20130726.jar:/Users/Sukeshk/.m2/repository/org/eclipse/jetty/jetty-io/8.1.12.v20130726/jetty-io-8.1.12.v20130726.jar:/Users/Sukeshk/.m2/repository/org/eclipse/jetty/jetty-http/8.1.12.v20130726/jetty-http-8.1.12.v20130726.jar:/Users/Sukeshk/.m2/repository/org/apache/httpcomponents/httpclient/4.3.1/httpclient-4.3.1.jar:/Users/Sukeshk/.m2/repository/org/apache/httpcomponents/httpcore/4.3/httpcore-4.3.jar:/Users/Sukeshk/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.41.0/selenium-firefox-driver-2.41.0.jar:/Users/Sukeshk/.m2/repository/commons-io/commons-io/2.2/commons-io-2.2.jar:/Users/Sukeshk/.m2/repository/org/apache/commons/commons-exec/1.1/commons-exec-1.1.jar:/Users/Sukeshk/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.41.0/selenium-ie-driver-2.41.0.jar:/Users/Sukeshk/.m2/repository/net/java/dev/jna/jna/3.4.0/jna-3.4.0.jar:/Users/Sukeshk/.m2/repository/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar:/Users/Sukeshk/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/2.41.0/selenium-safari-driver-2.41.0.jar:/Users/Sukeshk/.m2/repository/org/seleniumhq/selenium/selenium-support/2.41.0/selenium-support-2.41.0.jar:/Users/Sukeshk/.m2/repository/org/seleniumhq/selenium/selenium-api/2.41.0/selenium-api-2.41.0.jar:/Users/Sukeshk/.m2/repository/org/webbitserver/webbit/0.4.14/webbit-0.4.14.jar:/Users/Sukeshk/.m2/repository/io/netty/netty/3.5.2.Final/netty-3.5.2.Final.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.7.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/Sukeshk"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Sukeshk"/>
+    <property name="java.class.path" value="/Users/Sukeshk/AccuntsAppBDDTests/target/test-classes:/Users/Sukeshk/AccuntsAppBDDTests/target/classes:/Users/Sukeshk/.m2/repository/info/cukes/cucumber-java/1.1.5/cucumber-java-1.1.5.jar:/Users/Sukeshk/.m2/repository/info/cukes/cucumber-core/1.1.5/cucumber-core-1.1.5.jar:/Users/Sukeshk/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/Sukeshk/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.3/cucumber-jvm-deps-1.0.3.jar:/Users/Sukeshk/.m2/repository/info/cukes/gherkin/2.12.1/gherkin-2.12.1.jar:/Users/Sukeshk/.m2/repository/info/cukes/cucumber-junit/1.1.5/cucumber-junit-1.1.5.jar:/Users/Sukeshk/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/Sukeshk/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/Sukeshk/.m2/repository/org/seleniumhq/selenium/selenium-java/2.41.0/selenium-java-2.41.0.jar:/Users/Sukeshk/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.41.0/selenium-chrome-driver-2.41.0.jar:/Users/Sukeshk/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.41.0/selenium-remote-driver-2.41.0.jar:/Users/Sukeshk/.m2/repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar:/Users/Sukeshk/.m2/repository/org/json/json/20080701/json-20080701.jar:/Users/Sukeshk/.m2/repository/com/google/guava/guava/15.0/guava-15.0.jar:/Users/Sukeshk/.m2/repository/org/seleniumhq/selenium/selenium-htmlunit-driver/2.41.0/selenium-htmlunit-driver-2.41.0.jar:/Users/Sukeshk/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.13/htmlunit-2.13.jar:/Users/Sukeshk/.m2/repository/xalan/xalan/2.7.1/xalan-2.7.1.jar:/Users/Sukeshk/.m2/repository/xalan/serializer/2.7.1/serializer-2.7.1.jar:/Users/Sukeshk/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/Sukeshk/.m2/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar:/Users/Sukeshk/.m2/repository/org/apache/httpcomponents/httpmime/4.3.1/httpmime-4.3.1.jar:/Users/Sukeshk/.m2/repository/commons-codec/commons-codec/1.8/commons-codec-1.8.jar:/Users/Sukeshk/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.13/htmlunit-core-js-2.13.jar:/Users/Sukeshk/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/Users/Sukeshk/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/Sukeshk/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.19/nekohtml-1.9.19.jar:/Users/Sukeshk/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.11/cssparser-0.9.11.jar:/Users/Sukeshk/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/Sukeshk/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/Users/Sukeshk/.m2/repository/org/eclipse/jetty/jetty-websocket/8.1.12.v20130726/jetty-websocket-8.1.12.v20130726.jar:/Users/Sukeshk/.m2/repository/org/eclipse/jetty/jetty-util/8.1.12.v20130726/jetty-util-8.1.12.v20130726.jar:/Users/Sukeshk/.m2/repository/org/eclipse/jetty/jetty-io/8.1.12.v20130726/jetty-io-8.1.12.v20130726.jar:/Users/Sukeshk/.m2/repository/org/eclipse/jetty/jetty-http/8.1.12.v20130726/jetty-http-8.1.12.v20130726.jar:/Users/Sukeshk/.m2/repository/org/apache/httpcomponents/httpclient/4.3.1/httpclient-4.3.1.jar:/Users/Sukeshk/.m2/repository/org/apache/httpcomponents/httpcore/4.3/httpcore-4.3.jar:/Users/Sukeshk/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.41.0/selenium-firefox-driver-2.41.0.jar:/Users/Sukeshk/.m2/repository/commons-io/commons-io/2.2/commons-io-2.2.jar:/Users/Sukeshk/.m2/repository/org/apache/commons/commons-exec/1.1/commons-exec-1.1.jar:/Users/Sukeshk/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.41.0/selenium-ie-driver-2.41.0.jar:/Users/Sukeshk/.m2/repository/net/java/dev/jna/jna/3.4.0/jna-3.4.0.jar:/Users/Sukeshk/.m2/repository/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar:/Users/Sukeshk/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/2.41.0/selenium-safari-driver-2.41.0.jar:/Users/Sukeshk/.m2/repository/org/seleniumhq/selenium/selenium-support/2.41.0/selenium-support-2.41.0.jar:/Users/Sukeshk/.m2/repository/org/seleniumhq/selenium/selenium-api/2.41.0/selenium-api-2.41.0.jar:/Users/Sukeshk/.m2/repository/org/webbitserver/webbit/0.4.14/webbit-0.4.14.jar:/Users/Sukeshk/.m2/repository/io/netty/netty/3.5.2.Final/netty-3.5.2.Final.jar:"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="/Users/Sukeshk/AccuntsAppBDDTests/target/surefire/surefirebooter8764207587883184658.jar /Users/Sukeshk/AccuntsAppBDDTests/target/surefire/surefire2526605120888703202tmp /Users/Sukeshk/AccuntsAppBDDTests/target/surefire/surefire3345580304140742697tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_55"/>
+    <property name="java.ext.dirs" value="/Users/Sukeshk/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="/Users/Sukeshk/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.001" classname="Scenario: Sign up a new user" name="Given the user is on landing page"/>
+  <testcase time="0" classname="Scenario: Sign up a new user" name="When she chooses to sign up"/>
+  <testcase time="0" classname="Scenario: Sign up a new user" name="And she provides the first name as Sukesh"/>
+  <testcase time="0" classname="Scenario: Sign up a new user" name="And she provides the last name as Kumar"/>
+  <testcase time="0" classname="Scenario: Sign up a new user" name="And she provides the email as validemail@aq.com"/>
+  <testcase time="0" classname="Scenario: Sign up a new user" name="And she provides the password as password"/>
+  <testcase time="0" classname="Scenario: Sign up a new user" name="And she provides the confirm password again as password"/>
+  <testcase time="0" classname="Scenario: Sign up a new user" name="And she signs-up"/>
+  <testcase time="0.005" classname="Scenario: Sign up a new user" name="Then she should be logged in to the application">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[href=&apos;/users/sign_out&apos;]&quot;}
+Command duration or timeout: 8 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;N/A&apos;, ip: &apos;N/A&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.7.5&apos;, java.version: &apos;1.7.0_55&apos;
+Session ID: 77699c54-d97d-ea42-9f1b-ea8929bc59cf
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[href=&apos;/users/sign_out&apos;]&quot;}
+Command duration or timeout: 8 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;N/A&apos;, ip: &apos;N/A&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.7.5&apos;, java.version: &apos;1.7.0_55&apos;
+Session ID: 77699c54-d97d-ea42-9f1b-ea8929bc59cf
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:437)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:425)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at pagesWithPageFactoryImplementation.HomePage.isSignOutLinkDisplayed(HomePage.java:30)
+	at steps.HomePageSteps.she_should_be_logged_in_to_the_application(HomePageSteps.java:13)
+	at ✽.Then she should be logged in to the application(NewClientWorkFlow.feature:19)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[href=&apos;/users/sign_out&apos;]&quot;}
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;N/A&apos;, ip: &apos;N/A&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.7.5&apos;, java.version: &apos;1.7.0_55&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous2703002023600916857webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8905:133)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous2703002023600916857webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8914:3)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous2703002023600916857webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10884:16)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous2703002023600916857webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10889:7)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous2703002023600916857webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831:5)
+</error>
+  </testcase>
+  <testcase time="0.012" classname="Scenario: Sign up a new user" name="Scenario: Sign up a new user">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[href=&apos;/users/sign_out&apos;]&quot;}
+Command duration or timeout: 8 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;N/A&apos;, ip: &apos;N/A&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.7.5&apos;, java.version: &apos;1.7.0_55&apos;
+Session ID: 77699c54-d97d-ea42-9f1b-ea8929bc59cf
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[href=&apos;/users/sign_out&apos;]&quot;}
+Command duration or timeout: 8 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;N/A&apos;, ip: &apos;N/A&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.7.5&apos;, java.version: &apos;1.7.0_55&apos;
+Session ID: 77699c54-d97d-ea42-9f1b-ea8929bc59cf
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:437)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:425)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at pagesWithPageFactoryImplementation.HomePage.isSignOutLinkDisplayed(HomePage.java:30)
+	at steps.HomePageSteps.she_should_be_logged_in_to_the_application(HomePageSteps.java:13)
+	at ✽.Then she should be logged in to the application(NewClientWorkFlow.feature:19)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[href=&apos;/users/sign_out&apos;]&quot;}
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;N/A&apos;, ip: &apos;N/A&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.7.5&apos;, java.version: &apos;1.7.0_55&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous2703002023600916857webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8905:133)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous2703002023600916857webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8914:3)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous2703002023600916857webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10884:16)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous2703002023600916857webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10889:7)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous2703002023600916857webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831:5)
+</error>
+  </testcase>
+  <testcase time="0" classname="| Sukesh | Kumar | validemail@aq.com | password |" name="Given the user is on landing page"/>
+  <testcase time="0" classname="| Sukesh | Kumar | validemail@aq.com | password |" name="When she chooses to sign up"/>
+  <testcase time="0" classname="| Sukesh | Kumar | validemail@aq.com | password |" name="And she provides the first name as Sukesh"/>
+  <testcase time="0" classname="| Sukesh | Kumar | validemail@aq.com | password |" name="And she provides the last name as Kumar"/>
+  <testcase time="0" classname="| Sukesh | Kumar | validemail@aq.com | password |" name="And she provides the email as validemail@aq.com"/>
+  <testcase time="0" classname="| Sukesh | Kumar | validemail@aq.com | password |" name="And she provides the password as password"/>
+  <testcase time="0.001" classname="| Sukesh | Kumar | validemail@aq.com | password |" name="And she provides the confirm password again as password"/>
+  <testcase time="0.001" classname="| Sukesh | Kumar | validemail@aq.com | password |" name="And she signs-up"/>
+  <testcase time="0.003" classname="| Sukesh | Kumar | validemail@aq.com | password |" name="Then she should be logged in to the application">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[href=&apos;/users/sign_out&apos;]&quot;}
+Command duration or timeout: 28 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;N/A&apos;, ip: &apos;N/A&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.7.5&apos;, java.version: &apos;1.7.0_55&apos;
+Session ID: a1a24f8c-8b47-784f-8e32-6d8a624d4839
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[href=&apos;/users/sign_out&apos;]&quot;}
+Command duration or timeout: 28 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;N/A&apos;, ip: &apos;N/A&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.7.5&apos;, java.version: &apos;1.7.0_55&apos;
+Session ID: a1a24f8c-8b47-784f-8e32-6d8a624d4839
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:437)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:425)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at pagesWithPageFactoryImplementation.HomePage.isSignOutLinkDisplayed(HomePage.java:30)
+	at steps.HomePageSteps.she_should_be_logged_in_to_the_application(HomePageSteps.java:13)
+	at ✽.Then she should be logged in to the application(NewClientWorkFlow.feature:29)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[href=&apos;/users/sign_out&apos;]&quot;}
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;N/A&apos;, ip: &apos;N/A&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.7.5&apos;, java.version: &apos;1.7.0_55&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous259700035143190766webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8905:133)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous259700035143190766webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8914:3)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous259700035143190766webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10884:16)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous259700035143190766webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10889:7)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous259700035143190766webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831:5)
+</error>
+  </testcase>
+  <testcase time="0.009" classname="| Sukesh | Kumar | validemail@aq.com | password |" name="| Sukesh | Kumar | validemail@aq.com | password |">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[href=&apos;/users/sign_out&apos;]&quot;}
+Command duration or timeout: 28 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;N/A&apos;, ip: &apos;N/A&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.7.5&apos;, java.version: &apos;1.7.0_55&apos;
+Session ID: a1a24f8c-8b47-784f-8e32-6d8a624d4839
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[href=&apos;/users/sign_out&apos;]&quot;}
+Command duration or timeout: 28 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;N/A&apos;, ip: &apos;N/A&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.7.5&apos;, java.version: &apos;1.7.0_55&apos;
+Session ID: a1a24f8c-8b47-784f-8e32-6d8a624d4839
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:437)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:425)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at pagesWithPageFactoryImplementation.HomePage.isSignOutLinkDisplayed(HomePage.java:30)
+	at steps.HomePageSteps.she_should_be_logged_in_to_the_application(HomePageSteps.java:13)
+	at ✽.Then she should be logged in to the application(NewClientWorkFlow.feature:29)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[href=&apos;/users/sign_out&apos;]&quot;}
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;N/A&apos;, ip: &apos;N/A&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.7.5&apos;, java.version: &apos;1.7.0_55&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous259700035143190766webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8905:133)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous259700035143190766webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8914:3)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous259700035143190766webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10884:16)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous259700035143190766webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10889:7)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous259700035143190766webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831:5)
+</error>
+  </testcase>
+  <testcase time="0" classname="Scenario: Sign-up a new user with data table example" name="Given the user is on landing page"/>
+  <testcase time="0" classname="Scenario: Sign-up a new user with data table example" name="When she chooses to sign up"/>
+  <testcase time="0" classname="Scenario: Sign-up a new user with data table example" name="And she provides the her details as follows:"/>
+  <testcase time="0" classname="Scenario: Sign-up a new user with data table example" name="And she signs-up"/>
+  <testcase time="0.002" classname="Scenario: Sign-up a new user with data table example" name="Then she should be logged in to the application">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[href=&apos;/users/sign_out&apos;]&quot;}
+Command duration or timeout: 8 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;N/A&apos;, ip: &apos;N/A&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.7.5&apos;, java.version: &apos;1.7.0_55&apos;
+Session ID: 621d7ee7-900b-4644-9a3c-8a5a6a8f02ab
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[href=&apos;/users/sign_out&apos;]&quot;}
+Command duration or timeout: 8 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;N/A&apos;, ip: &apos;N/A&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.7.5&apos;, java.version: &apos;1.7.0_55&apos;
+Session ID: 621d7ee7-900b-4644-9a3c-8a5a6a8f02ab
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:437)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:425)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at pagesWithPageFactoryImplementation.HomePage.isSignOutLinkDisplayed(HomePage.java:30)
+	at steps.HomePageSteps.she_should_be_logged_in_to_the_application(HomePageSteps.java:13)
+	at ✽.Then she should be logged in to the application(NewClientWorkFlow.feature:41)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[href=&apos;/users/sign_out&apos;]&quot;}
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;N/A&apos;, ip: &apos;N/A&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.7.5&apos;, java.version: &apos;1.7.0_55&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous8660662687156718564webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8905:133)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous8660662687156718564webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8914:3)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous8660662687156718564webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10884:16)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous8660662687156718564webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10889:7)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous8660662687156718564webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831:5)
+</error>
+  </testcase>
+  <testcase time="0.006" classname="Scenario: Sign-up a new user with data table example" name="Scenario: Sign-up a new user with data table example">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[href=&apos;/users/sign_out&apos;]&quot;}
+Command duration or timeout: 8 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;N/A&apos;, ip: &apos;N/A&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.7.5&apos;, java.version: &apos;1.7.0_55&apos;
+Session ID: 621d7ee7-900b-4644-9a3c-8a5a6a8f02ab
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[href=&apos;/users/sign_out&apos;]&quot;}
+Command duration or timeout: 8 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;N/A&apos;, ip: &apos;N/A&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.7.5&apos;, java.version: &apos;1.7.0_55&apos;
+Session ID: 621d7ee7-900b-4644-9a3c-8a5a6a8f02ab
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:437)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:425)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at pagesWithPageFactoryImplementation.HomePage.isSignOutLinkDisplayed(HomePage.java:30)
+	at steps.HomePageSteps.she_should_be_logged_in_to_the_application(HomePageSteps.java:13)
+	at ✽.Then she should be logged in to the application(NewClientWorkFlow.feature:41)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[href=&apos;/users/sign_out&apos;]&quot;}
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;N/A&apos;, ip: &apos;N/A&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.7.5&apos;, java.version: &apos;1.7.0_55&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous8660662687156718564webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8905:133)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous8660662687156718564webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8914:3)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous8660662687156718564webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10884:16)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous8660662687156718564webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10889:7)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous8660662687156718564webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831:5)
+</error>
+  </testcase>
+</testsuite>

@@ -1,0 +1,220 @@
+-------------------------------------------------------------------------------
+Test set: RunCukesTest
+-------------------------------------------------------------------------------
+Tests run: 26, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 24.517 sec <<< FAILURE!
+Then she should be logged in to the application(Scenario: Sign up a new user)  Time elapsed: 0.003 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"a[href='/users/sign_out']"}
+Command duration or timeout: 8 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'N/A', ip: 'N/A', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.7.5', java.version: '1.7.0_55'
+Session ID: 77699c54-d97d-ea42-9f1b-ea8929bc59cf
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:437)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:425)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at pagesWithPageFactoryImplementation.HomePage.isSignOutLinkDisplayed(HomePage.java:30)
+	at steps.HomePageSteps.she_should_be_logged_in_to_the_application(HomePageSteps.java:13)
+	at ✽.Then she should be logged in to the application(NewClientWorkFlow.feature:19)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"css selector","selector":"a[href='/users/sign_out']"}
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'N/A', ip: 'N/A', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.7.5', java.version: '1.7.0_55'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous2703002023600916857webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8905:133)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous2703002023600916857webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8914:3)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous2703002023600916857webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10884:16)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous2703002023600916857webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10889:7)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous2703002023600916857webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831:5)
+
+Scenario: Sign up a new user  Time elapsed: 0.011 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"a[href='/users/sign_out']"}
+Command duration or timeout: 8 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'N/A', ip: 'N/A', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.7.5', java.version: '1.7.0_55'
+Session ID: 77699c54-d97d-ea42-9f1b-ea8929bc59cf
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:437)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:425)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at pagesWithPageFactoryImplementation.HomePage.isSignOutLinkDisplayed(HomePage.java:30)
+	at steps.HomePageSteps.she_should_be_logged_in_to_the_application(HomePageSteps.java:13)
+	at ✽.Then she should be logged in to the application(NewClientWorkFlow.feature:19)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"css selector","selector":"a[href='/users/sign_out']"}
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'N/A', ip: 'N/A', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.7.5', java.version: '1.7.0_55'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous2703002023600916857webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8905:133)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous2703002023600916857webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8914:3)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous2703002023600916857webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10884:16)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous2703002023600916857webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10889:7)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous2703002023600916857webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831:5)
+
+Then she should be logged in to the application(| Sukesh | Kumar | validemail@aq.com | password |)  Time elapsed: 0.002 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"a[href='/users/sign_out']"}
+Command duration or timeout: 28 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'N/A', ip: 'N/A', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.7.5', java.version: '1.7.0_55'
+Session ID: a1a24f8c-8b47-784f-8e32-6d8a624d4839
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:437)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:425)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at pagesWithPageFactoryImplementation.HomePage.isSignOutLinkDisplayed(HomePage.java:30)
+	at steps.HomePageSteps.she_should_be_logged_in_to_the_application(HomePageSteps.java:13)
+	at ✽.Then she should be logged in to the application(NewClientWorkFlow.feature:29)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"css selector","selector":"a[href='/users/sign_out']"}
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'N/A', ip: 'N/A', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.7.5', java.version: '1.7.0_55'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous259700035143190766webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8905:133)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous259700035143190766webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8914:3)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous259700035143190766webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10884:16)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous259700035143190766webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10889:7)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous259700035143190766webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831:5)
+
+| Sukesh | Kumar | validemail@aq.com | password |  Time elapsed: 0.007 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"a[href='/users/sign_out']"}
+Command duration or timeout: 28 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'N/A', ip: 'N/A', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.7.5', java.version: '1.7.0_55'
+Session ID: a1a24f8c-8b47-784f-8e32-6d8a624d4839
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:437)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:425)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at pagesWithPageFactoryImplementation.HomePage.isSignOutLinkDisplayed(HomePage.java:30)
+	at steps.HomePageSteps.she_should_be_logged_in_to_the_application(HomePageSteps.java:13)
+	at ✽.Then she should be logged in to the application(NewClientWorkFlow.feature:29)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"css selector","selector":"a[href='/users/sign_out']"}
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'N/A', ip: 'N/A', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.7.5', java.version: '1.7.0_55'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous259700035143190766webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8905:133)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous259700035143190766webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8914:3)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous259700035143190766webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10884:16)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous259700035143190766webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10889:7)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous259700035143190766webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831:5)
+
+Then she should be logged in to the application(Scenario: Sign-up a new user with data table example)  Time elapsed: 0.001 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"a[href='/users/sign_out']"}
+Command duration or timeout: 8 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'N/A', ip: 'N/A', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.7.5', java.version: '1.7.0_55'
+Session ID: 621d7ee7-900b-4644-9a3c-8a5a6a8f02ab
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:437)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:425)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at pagesWithPageFactoryImplementation.HomePage.isSignOutLinkDisplayed(HomePage.java:30)
+	at steps.HomePageSteps.she_should_be_logged_in_to_the_application(HomePageSteps.java:13)
+	at ✽.Then she should be logged in to the application(NewClientWorkFlow.feature:41)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"css selector","selector":"a[href='/users/sign_out']"}
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'N/A', ip: 'N/A', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.7.5', java.version: '1.7.0_55'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous8660662687156718564webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8905:133)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous8660662687156718564webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8914:3)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous8660662687156718564webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10884:16)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous8660662687156718564webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10889:7)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous8660662687156718564webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831:5)
+
+Scenario: Sign-up a new user with data table example  Time elapsed: 0.005 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"a[href='/users/sign_out']"}
+Command duration or timeout: 8 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'N/A', ip: 'N/A', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.7.5', java.version: '1.7.0_55'
+Session ID: 621d7ee7-900b-4644-9a3c-8a5a6a8f02ab
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:437)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:425)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at pagesWithPageFactoryImplementation.HomePage.isSignOutLinkDisplayed(HomePage.java:30)
+	at steps.HomePageSteps.she_should_be_logged_in_to_the_application(HomePageSteps.java:13)
+	at ✽.Then she should be logged in to the application(NewClientWorkFlow.feature:41)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"css selector","selector":"a[href='/users/sign_out']"}
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'N/A', ip: 'N/A', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.7.5', java.version: '1.7.0_55'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous8660662687156718564webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8905:133)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous8660662687156718564webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8914:3)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous8660662687156718564webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10884:16)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous8660662687156718564webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10889:7)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/29/m0_z1_j53g3950sqxt3b8wxh0000gp/T/anonymous8660662687156718564webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831:5)
+
